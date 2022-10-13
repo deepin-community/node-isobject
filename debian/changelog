@@ -1,0 +1,53 @@
+node-isobject (4.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * MA foreign
+
+ -- Bastien Roucariès <rouca@debian.org>  Sat, 25 Sep 2021 20:21:16 +0000
+
+node-isobject (4.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs auto test & install
+  * New upstream version 4.0.0
+  * Clean dependencies
+  * Build with rollup
+  * Update test
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 08 Dec 2020 06:26:49 +0100
+
+node-isobject (3.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Update packaging:
+    - Use https in d/copyright's Format
+    - Push dh compat to 10
+    - Push std-ver to 4.1.1
+    - Push d/watch to version 4
+    - Clean up d/rules
+    - Move to section javascript
+    - Make autopkgtest check the installed code
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 24 Nov 2017 22:45:08 +0100
+
+node-isobject (2.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #841037)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 17 Oct 2016 12:52:35 +0530

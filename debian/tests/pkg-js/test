@@ -1,0 +1,2 @@
+rollup -i test.js -o test-cjs.js -f cjs
+mocha test-cjs.js

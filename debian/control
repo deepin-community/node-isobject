@@ -1,0 +1,24 @@
+Source: node-isobject
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , rollup
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-isobject
+Vcs-Git: https://salsa.debian.org/js-team/node-isobject.git
+Homepage: https://github.com/jonschlinkert/isobject
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-isobject
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Checks if the value is an object and not an array or null
+ Returns true if the value is an object and not an array or null
+ .
+ Node.js is an event-based server-side JavaScript engine.

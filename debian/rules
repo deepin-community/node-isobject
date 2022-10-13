@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+index.cjs.js: index.js
+	rollup -i $< -o $@ -f cjs
+
+override_dh_auto_build: index.cjs.js
+	true
